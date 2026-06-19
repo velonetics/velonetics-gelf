@@ -9,13 +9,13 @@ import (
 )
 
 // Namespace is the key to look for extra configuration details
-const Namespace = "github_com/pucora/velonetics-gelf"
+const Namespace = "github_com/pucora/pucora-gelf"
 
 var (
 	newTCPWriter = gelf.NewTCPWriter
 	newUDPWriter = gelf.NewUDPWriter
 	// ErrWrongConfig is the error returned when there is no config under the namespace
-	ErrWrongConfig = fmt.Errorf("getting the extra config for the velonetics-gelf module")
+	ErrWrongConfig = fmt.Errorf("getting the extra config for the pucora-gelf module")
 	// ErrMissingAddr is the error returned when there address param is empty
 	ErrMissingAddr = fmt.Errorf("missing addr to send gelf logs")
 )
