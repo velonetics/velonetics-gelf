@@ -7,4 +7,4 @@ require (
 	gopkg.in/Graylog2/go-gelf.v2 v2.0.0-20191017102106-1550ee647df0
 )
 
-require golang.org/x/text v0.34.0 // indirect
+require golang.org/x/text v0.37.0 // indirect
