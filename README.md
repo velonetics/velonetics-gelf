@@ -2,7 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/pucora/pucora-gelf)](https://goreportcard.com/report/github.com/pucora/pucora-gelf)
 
-A gelf (Graylog Extended Log Format) Writer for [Pucora](https://pucora.io) loggers.
+A gelf (Graylog Extended Log Format) Writer for [Pucora](https://pucora.in) loggers.
 
 ## How to use it
 
